@@ -1,0 +1,97 @@
+/* -------------------- header -------------------- */
+.header{
+    max-width: 100%;
+    height: 56px;
+}
+
+.header-navbar{
+    padding: 12px 12px 0;
+}
+
+.navbar-logo-bars{
+    width: 10%;
+}
+
+.navbar-search-voice{
+    width: 50%;
+    gap: 1rem;
+}
+
+.navbar-logo{
+    font-size: 24px;
+}
+
+#red-color{
+    color: red;
+}
+
+.navbar-search{
+    position: relative;
+    width: 95%;
+}
+
+.block-input-search{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+}
+
+.input-search{
+    width: 85%;
+    height: 40px;
+    background: var(--color-bg-input);
+    border: 1px solid var(--color-border-input);
+    padding: 0 4px 0 16px;
+    outline: none;
+    font-size: 16px;
+    margin-left: 5%;
+    color: #fff;
+}
+
+.input-search:focus{
+    border: 1px solid var(--color-border-focus);
+    font-size: 16px;
+}
+
+.keyboard-icon{
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+
+.btn-search{
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    border: 1px solid var(--color-bg-btn-search);
+    background: var(--color-bg-btn-search);
+    right: 1px;
+}
+
+.navbar-bell-user{
+    width: 15%;
+}
+
+.cricle-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-bg-cricle);
+}
+
+.cricle-icon-none{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.cricle-icon:hover ,.cricle-icon-none:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-bg-cricle-hover);
+}
+
+.block-hover{
+    cursor: pointer;
+}
